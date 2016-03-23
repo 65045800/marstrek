@@ -75,31 +75,31 @@
                                               </block>
                                             </value>
                                             <next>
-                                              <block type="oled_setcursor" id="32" inline="true">
+                                              <block type="oled_setcursor" id="22" inline="true">
                                                 <value name="STARTX">
-                                                  <block type="math_number" id="33">
+                                                  <block type="math_number" id="23">
                                                     <field name="NUM">10</field>
                                                   </block>
                                                 </value>
                                                 <value name="STARTY">
-                                                  <block type="math_number" id="34">
+                                                  <block type="math_number" id="24">
                                                     <field name="NUM">40</field>
                                                   </block>
                                                 </value>
                                                 <next>
-                                                  <block type="oled_drawtext" id="35">
+                                                  <block type="oled_drawtext" id="25">
                                                     <field name="TEXT">yellow</field>
                                                     <next>
-                                                      <block type="oled_drawnumber" id="36" inline="true">
+                                                      <block type="oled_drawnumber" id="26" inline="true">
                                                         <value name="NUMBER">
-                                                          <block type="sensor_spectrometer" id="37">
+                                                          <block type="sensor_spectrometer" id="27">
                                                             <field name="LIGHT">YELLOW</field>
                                                           </block>
                                                         </value>
                                                         <next>
-                                                          <block type="robot_delay" id="22" inline="true">
+                                                          <block type="robot_delay" id="28" inline="true">
                                                             <value name="DELAY">
-                                                              <block type="math_number" id="23">
+                                                              <block type="math_number" id="29">
                                                                 <field name="NUM">2000</field>
                                                               </block>
                                                             </value>
@@ -132,7 +132,7 @@
       </block>
     </statement>
     <next>
-      <block type="movement_stop" id="24"></block>
+      <block type="movement_stop" id="30"></block>
     </next>
   </block>
 </xml>
