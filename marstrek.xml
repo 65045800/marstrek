@@ -135,30 +135,4 @@
       <block type="movement_stop" id="24"></block>
     </next>
   </block>
-  <block type="oled_setcursor" id="26" inline="true" x="372" y="42">
-    <value name="STARTX">
-      <block type="math_number" id="27">
-        <field name="NUM">10</field>
-      </block>
-    </value>
-    <value name="STARTY">
-      <block type="math_number" id="28">
-        <field name="NUM">10</field>
-      </block>
-    </value>
-    <next>
-      <block type="oled_drawtext" id="29">
-        <field name="TEXT">blue</field>
-        <next>
-          <block type="oled_drawnumber" id="30" inline="true">
-            <value name="NUMBER">
-              <block type="sensor_spectrometer" id="31">
-                <field name="LIGHT">BLUE</field>
-              </block>
-            </value>
-          </block>
-        </next>
-      </block>
-    </next>
-  </block>
 </xml>
